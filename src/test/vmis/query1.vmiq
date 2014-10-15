@@ -1,0 +1,4 @@
+disk.os.name = Linux
+disk.os.version >= 12.04
+disk.os.flavour = Ubuntu
+soft 30 disk.applications contains (name = com.java, version >= 1)

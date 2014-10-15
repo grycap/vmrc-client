@@ -1,0 +1,9 @@
+system.name = ubuseast1
+system.hypervisor = kvm
+system.location = aws://us-east-1/ami-d0f89fb9
+cpu.arch = i686
+disk.os.name = Linux
+disk.os.flavour = Ubuntu
+disk.os.version = 12.04
+disk.os.credentials.user = ubuntu
+

@@ -1,0 +1,3 @@
+disk.os.name = Linux
+disk.os.version >= 12.04
+disk.os.flavour = Ubuntu

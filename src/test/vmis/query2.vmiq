@@ -1,0 +1,7 @@
+system.hypervisor = kvm
+cpu.arch = i686
+disk.os.name = Linux
+disk.os.flavour = Ubuntu
+disk.os.version >= 11.15
+disk.applications contains (name = Java, version >= 1.6)
+soft 25 disk.applications contains (name = matlab, version > 7.0)
