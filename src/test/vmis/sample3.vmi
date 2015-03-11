@@ -1,0 +1,9 @@
+system.name = Ramses_Ubuntu_14_04
+system.hypervisor = kvm
+system.location = one://onecloud.i3m.upv.es/37
+cpu.arch = i686
+disk.os.name = Linux
+disk.os.flavour = Ubuntu
+disk.os.version = 14.04
+disk.os.credentials.user = ubuntu
+disk.os.credentials.password = yoyoyo

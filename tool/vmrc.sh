@@ -1,10 +1,10 @@
 #! /bin/bash
 # -----------------------------------------------------------------------------
-# ____   ____  ____    ____  _______      ______  
-#|_  _| |_  _||_   \  /   _||_   __ \   .' ___  | 
-#  \ \   / /    |   \/   |    | |__) | / .'   \_| 
-#   \ \ / /     | |\  /| |    |  __ /  | |        
-#    \ ' /     _| |_\/_| |_  _| |  \ \_\ `.___.'\ 
+# ____   ____  ____    ____  _______      ______
+#|_  _| |_  _||_   \  /   _||_   __ \   .' ___  |
+#  \ \   / /    |   \/   |    | |__) | / .'   \_|
+#   \ \ / /     | |\  /| |    |  __ /  | |
+#    \ ' /     _| |_\/_| |_  _| |  \ \_\ `.___.'\
 #     \_/     |_____||_____||____| |___|`.____ .'
 #
 # Script to execute the VMRC client operations.
@@ -32,8 +32,8 @@ if [ -z $VMRC_CLIENT_LOCATION ]; then
    exit -1
 fi
 
-CLASSPATH=$CLASSPATH:$VMRC_CLIENT_LOCATION/vmrc-client.jar
-for i in ${VMRC_CLIENT_LOCATION}/lib/*.jar
+CLASSPATH=$CLASSPATH:$VMRC_CLIENT_LOCATION/target/vmrc-client.jar
+for i in ${VMRC_CLIENT_LOCATION}/target/lib/*.jar
 do
   CLASSPATH=$CLASSPATH:"$i"
 done
